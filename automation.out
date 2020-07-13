@@ -1,0 +1,6 @@
+2020-07-13 20:07:988 INFO  Utility:17 - Lauching chrome browser...
+2020-07-13 20:07:225 INFO  Utility:21 - Chrome browser launched sucessfully
+2020-07-13 20:07:607 INFO  StepDefinitions:24 - Naviggated to https://www.google.com/ sucessfully
+2020-07-13 20:07:620 INFO  StepDefinitions:28 - Searching Clarivate Analytics on google...
+2020-07-13 20:07:799 INFO  StepDefinitions:36 - https://clarivate.com/ is the first search result
+2020-07-13 20:07:48 INFO  Hooks:41 - Validate clarivate.com is the first result on google search is pass
