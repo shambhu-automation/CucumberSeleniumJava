@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="47363" started-at="2020-07-13T14:42:51Z" finished-at="2020-07-13T14:43:38Z">
+  <suite name="Suite" duration-ms="66708" started-at="2020-07-15T14:04:43Z" finished-at="2020-07-15T14:05:50Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.clarivate.bdd_framework.testRunner.TestRunner@58ceff1]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.clarivate.bdd_framework.testRunner.TestRunner@49e4cb85]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="47363" started-at="2020-07-13T14:42:51Z" finished-at="2020-07-13T14:43:38Z">
+    <test name="Test" duration-ms="66708" started-at="2020-07-15T14:04:43Z" finished-at="2020-07-15T14:05:50Z">
       <class name="com.clarivate.bdd_framework.testRunner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.clarivate.bdd_framework.testRunner.TestRunner@58ceff1]" name="setUpClass" is-config="true" duration-ms="556" started-at="2020-07-13T20:12:51Z" finished-at="2020-07-13T20:12:51Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.clarivate.bdd_framework.testRunner.TestRunner@49e4cb85]" name="setUpClass" is-config="true" duration-ms="440" started-at="2020-07-15T19:34:43Z" finished-at="2020-07-15T19:34:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.clarivate.bdd_framework.testRunner.TestRunner@58ceff1]" name="feature" duration-ms="46346" started-at="2020-07-13T20:12:51Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-13T20:13:38Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.clarivate.bdd_framework.testRunner.TestRunner@49e4cb85]" name="feature" duration-ms="65853" started-at="2020-07-15T19:34:43Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-15T19:35:49Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.clarivate.bdd_framework.testRunner.TestRunner@58ceff1]" name="tearDownClass" is-config="true" duration-ms="295" started-at="2020-07-13T20:13:38Z" finished-at="2020-07-13T20:13:38Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.clarivate.bdd_framework.testRunner.TestRunner@49e4cb85]" name="tearDownClass" is-config="true" duration-ms="266" started-at="2020-07-15T19:35:49Z" finished-at="2020-07-15T19:35:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

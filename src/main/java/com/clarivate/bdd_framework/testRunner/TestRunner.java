@@ -12,7 +12,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 				 plugin = { "pretty", "html:target/cucumber-reports/cucumber-pretty",
 		"json:target/cucumber-reports/CucumberTestReport.json", "rerun:target/cucumber-reports/rerun.txt" },
 		        monochrome = true, 
-		        dryRun = false)
+		        dryRun = false,
+		        tags = {"@BrowserAutomation"})
 public class TestRunner extends AbstractTestNGCucumberTests{
 
 }

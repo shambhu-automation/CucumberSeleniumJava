@@ -15,7 +15,7 @@ import cucumber.api.java.en.When;
 public class StepDefinitions extends Utility {
 
 	GoogleHomePage googlehomepage = new GoogleHomePage(driver);
-	Utility utility = new Utility();
+//	Utility utility = new Utility();
 	Logger logger = LoggerHelper.getLogger(StepDefinitions.class);
 	
 	@Given("^User navigates to \"([^\"]*)\"$")

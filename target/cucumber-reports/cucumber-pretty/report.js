@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("google_search.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("GoogleSearchResultTest.feature");
 formatter.feature({
   "line": 1,
   "name": "As a Google user I should be able to get clarivate.com as the first result on google search",
@@ -7,29 +7,35 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 17365757400,
+  "duration": 35674189000,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 3,
+  "line": 4,
   "name": "Validate clarivate.com is the first result on google search",
   "description": "",
   "id": "as-a-google-user-i-should-be-able-to-get-clarivate.com-as-the-first-result-on-google-search;validate-clarivate.com-is-the-first-result-on-google-search",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@BrowserAutomation"
+    }
+  ]
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "User navigates to \"https://www.google.com/\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "User search for \"Clarivate Analytics\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "User validates \"https://clarivate.com/\" is the first search result",
   "keyword": "Then "
 });
@@ -43,7 +49,7 @@ formatter.match({
   "location": "StepDefinitions.UserNavigatesTo(String)"
 });
 formatter.result({
-  "duration": 8373886600,
+  "duration": 6498324200,
   "status": "passed"
 });
 formatter.match({
@@ -56,7 +62,7 @@ formatter.match({
   "location": "StepDefinitions.UserSearchFor(String)"
 });
 formatter.result({
-  "duration": 5030823300,
+  "duration": 4352485000,
   "status": "passed"
 });
 formatter.match({
@@ -69,12 +75,12 @@ formatter.match({
   "location": "StepDefinitions.UserValidatesTheSearchResult(String)"
 });
 formatter.result({
-  "duration": 12391573700,
+  "duration": 14881794900,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 3095173500,
+  "duration": 4359792100,
   "status": "passed"
 });
 });
